@@ -1,0 +1,11 @@
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.repo-card {
+  border: 1px solid #aaa;
+  margin: 15px;
+  padding: 15px;
+}
