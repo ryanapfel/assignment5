@@ -9,3 +9,14 @@ export async function fetchRepos() {
   let response = await fetch(`${API_URL}/orgs/facebook/repos`);
   return response.json();
 }
+
+export async function getPosts(subName) {
+  let response = await fetch(`https://www.reddit.com/r/${subName}.json`);
+  return  response.json();
+}
+
+
+export async function getUser(userName) {
+  let response = await fetch(`https://www.reddit.com/user/${userName}.json`);
+  return  response.json();
+}

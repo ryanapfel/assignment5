@@ -1,11 +1,59 @@
-.members {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.repo-card {
-  border: 1px solid #aaa;
-  margin: 15px;
-  padding: 15px;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.center
+{
+  margin:40px;
+  text-align: center;
+}
+.center p
+{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.avatar
+{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    display: inline-block;
+    overflow: hidden;
+    background: #f3f6f9;
+    border-radius: 50%;
+}
+
+.avatar .childWrapper
+{
+  z-index: 2;
+  align-content: center;
+  display: flex;
+}
+.avatar img{
+    width: 80px;
+}
+.avatar p
+{
+  z-index: 1;
+  text-align: center;
+  font-family: 'Helvetica Neue';
+  font-size: 30px !important;
+  line-height: 17px;
+  font-weight: bold;;
+  color: #86a4c2;
+}
+.post-card{
+  margin: 20px;
+  padding: 20px;
+  
 }
